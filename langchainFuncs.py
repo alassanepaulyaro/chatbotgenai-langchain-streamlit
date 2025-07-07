@@ -7,32 +7,6 @@ from langchain.schema import StrOutputParser
 from langchain.schema.runnable import RunnableBranch, RunnableLambda, RunnablePassthrough
 import pandas as pd
 
-""" chain = ChatOpenAI(model="gpt-4o", api_key=st.secrets["OPENAI_API_KEY"])
-
-revenueData = '''
-January: $13,250
-February: $11,480
-March: $14,500
-April: $12,650
-May: $15,520
-June: $17,430
-July: $13,700
-August: $16,750
-September: $18,340
-October: $20,200
-November: $21,3500
-December: $24,600
-'''
-
-messages = [
-    SystemMessage(content="You are an ecommerce database agent. [DATA]: " + revenueData),
-    HumanMessage(content="Please tell me the revenue figures for August.")
-]
-
-response = chain.invoke(messages)
-print("Full LLM Response: ", response)
-print("LLM Response Content: ", response.content) """
-
 df =  pd.read_csv("e-commerce-dataset.csv")
 print(df.head())
 
@@ -46,8 +20,23 @@ retrieval_prompt = PromptTemplate.from_template(
 
 retrieval_prompt = retrieval_prompt.partial(col_vals = df.columns)
 
+# custom function
+def retrieve_data_func(query_string):
+    print("Query String (before):", query_string)
+    query_string = query_string.replace('```python', '')
+    query_string = query_string.replace('```', '')
+    query_string = query_string.strip()
+    print("Query String (after):", query_string)
+
+    data = df.query(query_string)
+
+    return data
+
+# runnableLambdas
+retrieve_data = RunnableLambda(retrieve_data_func)
+
 # chain
-chain = retrieval_prompt | llm | StrOutputParser()
+chain = retrieval_prompt | llm | StrOutputParser() | retrieve_data
 
 # run
 user_input = {"input_text": "Please give me all the sales records for Wireless Mouse"}
