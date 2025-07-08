@@ -1,5 +1,6 @@
 import streamlit as st
 from openai import OpenAI
+from langchainFuncs import run_chain
 from ui_components import setupUI
 from backend import displayCurrentPromt, llmCall, setupBackend, streamLLMOutput
 
@@ -22,6 +23,9 @@ if prompt := st.chat_input("What is up?"):
         # Stream the response to the chat using `st.write_stream`, then store it in 
         # session state.
        streamLLMOutput(stream)
+       
+       # run chain
+       run_chain(prompt)
             
     except Exception as e:
         st.error(f"Error generating response: {e}")

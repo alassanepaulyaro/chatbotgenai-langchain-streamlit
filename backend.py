@@ -1,5 +1,6 @@
 import streamlit as st
 from openai import OpenAI
+from langchainFuncs import run_chain
 
 def setupBackend():
     # Create an OpenAI client.
@@ -39,3 +40,7 @@ def streamLLMOutput(stream):
     with st.chat_message("assistant"):
         response = st.write_stream(stream)
         st.session_state.messages.append({"role": "assistant", "content": response})
+
+def chainCall (user_input):
+    user_input = {"input_text": user_input}
+    run_chain(user_input)
