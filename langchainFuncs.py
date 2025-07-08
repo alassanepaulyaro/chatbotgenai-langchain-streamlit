@@ -41,6 +41,8 @@ def run_chain(user_input):
     chain = retrieval_prompt | llm | StrOutputParser() | retrieve_data
 
     # run
-    # user_input = {"input_text": "Please give me all the sales records for Wireless Mouse"}
+    # user_input = {"input_text": "Please give me all the sales records for Wireless Mouse with RGB Lighting"}
     response = chain.invoke(user_input)
     print(response)
+    
+    return response

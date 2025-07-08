@@ -2,7 +2,7 @@ import streamlit as st
 from openai import OpenAI
 from langchainFuncs import run_chain
 from ui_components import setupUI
-from backend import displayCurrentPromt, llmCall, setupBackend, streamLLMOutput
+from backend import chainCallOutput, displayCurrentPromt, llmCall, setupBackend, streamLLMOutput
 
 # Setup the ui components
 selected_data_source = setupUI()
@@ -17,15 +17,11 @@ if prompt := st.chat_input("What is up?"):
 
     # Generate a response using the OpenAI API.
     # THIS CODE MUST BE INSIDE THE 'if prompt:' BLOCK
-    try:
-       stream = llmCall(client)
-
-        # Stream the response to the chat using `st.write_stream`, then store it in 
-        # session state.
-       streamLLMOutput(stream)
-       
+    try:       
        # run chain
-       run_chain(prompt)
+       chain_response = run_chain(prompt)
+       # Output chain response 
+       chainCallOutput(chain_response)
             
     except Exception as e:
         st.error(f"Error generating response: {e}")
