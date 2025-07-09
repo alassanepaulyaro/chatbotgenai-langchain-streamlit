@@ -1,2 +1,7 @@
 streamlit
 openai
+streamlit
+langchain
+langchain-openai
+langchain-core
+pandas

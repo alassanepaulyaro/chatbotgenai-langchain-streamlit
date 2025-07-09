@@ -1,0 +1,101 @@
+transaction_id,transaction_date,customer_id,customer_name,product_id,product_description,unit_price,quantity,total_order_size
+TXN00001,2024-01-05,CUST007,Advanced Technologies Corp,PROD013,Ergonomic Office Chair Cushion,49.99,2,99.98
+TXN00002,2024-01-08,CUST003,Digital Dynamics LLC,PROD019,Bluetooth Conference Speaker,249.99,1,249.99
+TXN00003,2024-01-12,CUST009,Industrial Solutions Ltd,PROD004,Wireless Mouse with RGB Lighting,35.99,3,107.97
+TXN00004,2024-01-15,CUST002,Global Manufacturing Inc,PROD007,Standing Desk Converter,299.99,1,299.99
+TXN00005,2024-01-18,CUST005,Innovation Labs Ltd,PROD011,Noise Cancelling Ear Plugs,19.99,5,99.95
+TXN00006,2024-01-22,CUST001,TechCorp Solutions,PROD020,Multi-Port USB Hub 3.0,29.99,4,119.96
+TXN00007,2024-01-25,CUST008,Professional Services Inc,PROD015,Portable Document Scanner,179.99,2,359.98
+TXN00008,2024-01-28,CUST004,Enterprise Systems Co,PROD003,Portable External Battery 10000mAh,45.99,6,275.94
+TXN00009,2024-02-02,CUST006,Strategic Ventures Group,PROD018,LED Desk Lamp with USB Ports,59.99,1,59.99
+TXN00010,2024-02-05,CUST010,Smart Systems International,PROD005,Mechanical Gaming Keyboard,129.99,2,259.98
+TXN00011,2024-02-08,CUST007,Advanced Technologies Corp,PROD002,USB-C Charging Cable 6ft,24.99,8,199.92
+TXN00012,2024-02-12,CUST003,Digital Dynamics LLC,PROD014,Smart Home Hub Controller,149.99,1,149.99
+TXN00013,2024-02-15,CUST009,Industrial Solutions Ltd,PROD001,Wireless Bluetooth Headphones,89.99,3,269.97
+TXN00014,2024-02-18,CUST002,Global Manufacturing Inc,PROD009,Laptop Cooling Pad,39.99,4,159.96
+TXN00015,2024-02-22,CUST005,Innovation Labs Ltd,PROD016,Wireless Presentation Remote,25.99,2,51.98
+TXN00016,2024-02-25,CUST001,TechCorp Solutions,PROD012,HD Monitor Stand Dual Arm,89.99,1,89.99
+TXN00017,2024-02-28,CUST008,Professional Services Inc,PROD008,Blue Light Blocking Glasses,29.99,6,179.94
+TXN00018,2024-03-03,CUST004,Enterprise Systems Co,PROD010,Wireless Phone Charger Pad,34.99,3,104.97
+TXN00019,2024-03-06,CUST006,Strategic Ventures Group,PROD017,Cable Management Organizer,15.99,10,159.90
+TXN00020,2024-03-09,CUST010,Smart Systems International,PROD006,4K Webcam with Auto Focus,199.99,1,199.99
+TXN00021,2024-03-12,CUST007,Advanced Technologies Corp,PROD011,Noise Cancelling Ear Plugs,19.99,3,59.97
+TXN00022,2024-03-15,CUST003,Digital Dynamics LLC,PROD004,Wireless Mouse with RGB Lighting,35.99,2,71.98
+TXN00023,2024-03-18,CUST009,Industrial Solutions Ltd,PROD019,Bluetooth Conference Speaker,249.99,1,249.99
+TXN00024,2024-03-22,CUST002,Global Manufacturing Inc,PROD013,Ergonomic Office Chair Cushion,49.99,4,199.96
+TXN00025,2024-03-25,CUST005,Innovation Labs Ltd,PROD007,Standing Desk Converter,299.99,1,299.99
+TXN00026,2024-03-28,CUST001,TechCorp Solutions,PROD002,USB-C Charging Cable 6ft,24.99,5,124.95
+TXN00027,2024-04-02,CUST008,Professional Services Inc,PROD020,Multi-Port USB Hub 3.0,29.99,3,89.97
+TXN00028,2024-04-05,CUST004,Enterprise Systems Co,PROD015,Portable Document Scanner,179.99,1,179.99
+TXN00029,2024-04-08,CUST006,Strategic Ventures Group,PROD003,Portable External Battery 10000mAh,45.99,2,91.98
+TXN00030,2024-04-12,CUST010,Smart Systems International,PROD018,LED Desk Lamp with USB Ports,59.99,3,179.97
+TXN00031,2024-04-15,CUST007,Advanced Technologies Corp,PROD005,Mechanical Gaming Keyboard,129.99,1,129.99
+TXN00032,2024-04-18,CUST003,Digital Dynamics LLC,PROD001,Wireless Bluetooth Headphones,89.99,2,179.98
+TXN00033,2024-04-22,CUST009,Industrial Solutions Ltd,PROD014,Smart Home Hub Controller,149.99,1,149.99
+TXN00034,2024-04-25,CUST002,Global Manufacturing Inc,PROD009,Laptop Cooling Pad,39.99,6,239.94
+TXN00035,2024-04-28,CUST005,Innovation Labs Ltd,PROD016,Wireless Presentation Remote,25.99,4,103.96
+TXN00036,2024-05-02,CUST001,TechCorp Solutions,PROD012,HD Monitor Stand Dual Arm,89.99,2,179.98
+TXN00037,2024-05-05,CUST008,Professional Services Inc,PROD008,Blue Light Blocking Glasses,29.99,3,89.97
+TXN00038,2024-05-08,CUST004,Enterprise Systems Co,PROD010,Wireless Phone Charger Pad,34.99,5,174.95
+TXN00039,2024-05-12,CUST006,Strategic Ventures Group,PROD017,Cable Management Organizer,15.99,8,127.92
+TXN00040,2024-05-15,CUST010,Smart Systems International,PROD006,4K Webcam with Auto Focus,199.99,1,199.99
+TXN00041,2024-05-18,CUST007,Advanced Technologies Corp,PROD011,Noise Cancelling Ear Plugs,19.99,2,39.98
+TXN00042,2024-05-22,CUST003,Digital Dynamics LLC,PROD004,Wireless Mouse with RGB Lighting,35.99,4,143.96
+TXN00043,2024-05-25,CUST009,Industrial Solutions Ltd,PROD019,Bluetooth Conference Speaker,249.99,1,249.99
+TXN00044,2024-05-28,CUST002,Global Manufacturing Inc,PROD013,Ergonomic Office Chair Cushion,49.99,3,149.97
+TXN00045,2024-06-02,CUST005,Innovation Labs Ltd,PROD007,Standing Desk Converter,299.99,1,299.99
+TXN00046,2024-06-05,CUST001,TechCorp Solutions,PROD002,USB-C Charging Cable 6ft,24.99,6,149.94
+TXN00047,2024-06-08,CUST008,Professional Services Inc,PROD020,Multi-Port USB Hub 3.0,29.99,2,59.98
+TXN00048,2024-06-12,CUST004,Enterprise Systems Co,PROD015,Portable Document Scanner,179.99,1,179.99
+TXN00049,2024-06-15,CUST006,Strategic Ventures Group,PROD003,Portable External Battery 10000mAh,45.99,4,183.96
+TXN00050,2024-06-18,CUST010,Smart Systems International,PROD018,LED Desk Lamp with USB Ports,59.99,2,119.98
+TXN00051,2024-06-22,CUST007,Advanced Technologies Corp,PROD005,Mechanical Gaming Keyboard,129.99,1,129.99
+TXN00052,2024-06-25,CUST003,Digital Dynamics LLC,PROD001,Wireless Bluetooth Headphones,89.99,1,89.99
+TXN00053,2024-06-28,CUST009,Industrial Solutions Ltd,PROD014,Smart Home Hub Controller,149.99,2,299.98
+TXN00054,2024-07-02,CUST002,Global Manufacturing Inc,PROD009,Laptop Cooling Pad,39.99,3,119.97
+TXN00055,2024-07-05,CUST005,Innovation Labs Ltd,PROD016,Wireless Presentation Remote,25.99,5,129.95
+TXN00056,2024-07-08,CUST001,TechCorp Solutions,PROD012,HD Monitor Stand Dual Arm,89.99,1,89.99
+TXN00057,2024-07-12,CUST008,Professional Services Inc,PROD008,Blue Light Blocking Glasses,29.99,4,119.96
+TXN00058,2024-07-15,CUST004,Enterprise Systems Co,PROD010,Wireless Phone Charger Pad,34.99,2,69.98
+TXN00059,2024-07-18,CUST006,Strategic Ventures Group,PROD017,Cable Management Organizer,15.99,12,191.88
+TXN00060,2024-07-22,CUST010,Smart Systems International,PROD006,4K Webcam with Auto Focus,199.99,1,199.99
+TXN00061,2024-07-25,CUST007,Advanced Technologies Corp,PROD011,Noise Cancelling Ear Plugs,19.99,6,119.94
+TXN00062,2024-07-28,CUST003,Digital Dynamics LLC,PROD004,Wireless Mouse with RGB Lighting,35.99,1,35.99
+TXN00063,2024-08-02,CUST009,Industrial Solutions Ltd,PROD019,Bluetooth Conference Speaker,249.99,1,249.99
+TXN00064,2024-08-05,CUST002,Global Manufacturing Inc,PROD013,Ergonomic Office Chair Cushion,49.99,2,99.98
+TXN00065,2024-08-08,CUST005,Innovation Labs Ltd,PROD007,Standing Desk Converter,299.99,1,299.99
+TXN00066,2024-08-12,CUST001,TechCorp Solutions,PROD002,USB-C Charging Cable 6ft,24.99,3,74.97
+TXN00067,2024-08-15,CUST008,Professional Services Inc,PROD020,Multi-Port USB Hub 3.0,29.99,4,119.96
+TXN00068,2024-08-18,CUST004,Enterprise Systems Co,PROD015,Portable Document Scanner,179.99,1,179.99
+TXN00069,2024-08-22,CUST006,Strategic Ventures Group,PROD003,Portable External Battery 10000mAh,45.99,3,137.97
+TXN00070,2024-08-25,CUST010,Smart Systems International,PROD018,LED Desk Lamp with USB Ports,59.99,1,59.99
+TXN00071,2024-08-28,CUST007,Advanced Technologies Corp,PROD005,Mechanical Gaming Keyboard,129.99,2,259.98
+TXN00072,2024-09-02,CUST003,Digital Dynamics LLC,PROD001,Wireless Bluetooth Headphones,89.99,3,269.97
+TXN00073,2024-09-05,CUST009,Industrial Solutions Ltd,PROD014,Smart Home Hub Controller,149.99,1,149.99
+TXN00074,2024-09-08,CUST002,Global Manufacturing Inc,PROD009,Laptop Cooling Pad,39.99,5,199.95
+TXN00075,2024-09-12,CUST005,Innovation Labs Ltd,PROD016,Wireless Presentation Remote,25.99,3,77.97
+TXN00076,2024-09-15,CUST001,TechCorp Solutions,PROD012,HD Monitor Stand Dual Arm,89.99,2,179.98
+TXN00077,2024-09-18,CUST008,Professional Services Inc,PROD008,Blue Light Blocking Glasses,29.99,2,59.98
+TXN00078,2024-09-22,CUST004,Enterprise Systems Co,PROD010,Wireless Phone Charger Pad,34.99,4,139.96
+TXN00079,2024-09-25,CUST006,Strategic Ventures Group,PROD017,Cable Management Organizer,15.99,6,95.94
+TXN00080,2024-09-28,CUST010,Smart Systems International,PROD006,4K Webcam with Auto Focus,199.99,1,199.99
+TXN00081,2024-10-02,CUST007,Advanced Technologies Corp,PROD011,Noise Cancelling Ear Plugs,19.99,4,79.96
+TXN00082,2024-10-05,CUST003,Digital Dynamics LLC,PROD004,Wireless Mouse with RGB Lighting,35.99,2,71.98
+TXN00083,2024-10-08,CUST009,Industrial Solutions Ltd,PROD019,Bluetooth Conference Speaker,249.99,1,249.99
+TXN00084,2024-10-12,CUST002,Global Manufacturing Inc,PROD013,Ergonomic Office Chair Cushion,49.99,1,49.99
+TXN00085,2024-10-15,CUST005,Innovation Labs Ltd,PROD007,Standing Desk Converter,299.99,1,299.99
+TXN00086,2024-10-18,CUST001,TechCorp Solutions,PROD002,USB-C Charging Cable 6ft,24.99,4,99.96
+TXN00087,2024-10-22,CUST008,Professional Services Inc,PROD020,Multi-Port USB Hub 3.0,29.99,3,89.97
+TXN00088,2024-10-25,CUST004,Enterprise Systems Co,PROD015,Portable Document Scanner,179.99,1,179.99
+TXN00089,2024-10-28,CUST006,Strategic Ventures Group,PROD003,Portable External Battery 10000mAh,45.99,2,91.98
+TXN00090,2024-11-02,CUST010,Smart Systems International,PROD018,LED Desk Lamp with USB Ports,59.99,2,119.98
+TXN00091,2024-11-05,CUST007,Advanced Technologies Corp,PROD005,Mechanical Gaming Keyboard,129.99,1,129.99
+TXN00092,2024-11-08,CUST003,Digital Dynamics LLC,PROD001,Wireless Bluetooth Headphones,89.99,1,89.99
+TXN00093,2024-11-12,CUST009,Industrial Solutions Ltd,PROD014,Smart Home Hub Controller,149.99,1,149.99
+TXN00094,2024-11-15,CUST002,Global Manufacturing Inc,PROD009,Laptop Cooling Pad,39.99,2,79.98
+TXN00095,2024-11-18,CUST005,Innovation Labs Ltd,PROD016,Wireless Presentation Remote,25.99,1,25.99
+TXN00096,2024-11-22,CUST001,TechCorp Solutions,PROD012,HD Monitor Stand Dual Arm,89.99,1,89.99
+TXN00097,2024-11-25,CUST008,Professional Services Inc,PROD008,Blue Light Blocking Glasses,29.99,5,149.95
+TXN00098,2024-11-28,CUST004,Enterprise Systems Co,PROD010,Wireless Phone Charger Pad,34.99,1,34.99
+TXN00099,2024-12-02,CUST006,Strategic Ventures Group,PROD017,Cable Management Organizer,15.99,15,239.85
+TXN00100,2024-12-26,CUST010,Smart Systems International,PROD006,4K Webcam with Auto Focus,199.99,1,199.99
