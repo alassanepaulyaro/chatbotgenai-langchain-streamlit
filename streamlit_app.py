@@ -2,7 +2,7 @@ import streamlit as st
 from openai import OpenAI
 from langchainFuncs import run_chain
 from ui_components import setupUI
-from backend import chainCallOutput, displayCurrentPromt, llmCall, setupBackend, streamLLMOutput
+from backend import chainCall, chainCallOutput, displayCurrentPromt, llmCall, setupBackend, streamLLMOutput
 
 # Setup the ui components
 selected_data_source = setupUI()
@@ -19,9 +19,9 @@ if prompt := st.chat_input("What is up?"):
     # THIS CODE MUST BE INSIDE THE 'if prompt:' BLOCK
     try:       
        # run chain
-       chain_response = run_chain(prompt)
+        chain_response = chainCall(prompt)
        # Output chain response 
-       chainCallOutput(chain_response)
+        chainCallOutput(chain_response)
             
     except Exception as e:
         st.error(f"Error generating response: {e}")

@@ -52,5 +52,5 @@ def chainCall(user_input):
 
 def chainCallOutput(chain_response):
     with st.chat_message("assistant"):
-        response = st.write(chain_response)
+        chain_response = st.write(chain_response)
     st.session_state.messages.append({"role": "assistant", "content": chain_response})
